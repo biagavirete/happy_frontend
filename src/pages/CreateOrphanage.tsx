@@ -85,12 +85,14 @@ export default function OrphanagesMap() {
             <legend>Dados</legend>
 
             <Map 
-              center={[-22.9858588,-47.0890119]}
+              center={[-22.9705937,-47.0068737]}
               style={{ width: '100%', height: 280 }}
-              zoom={15}
+              zoom={14}
               onClick={handleMapClick}
             >
-              <TileLayer url="http://a.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+              <TileLayer 
+                url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
+              />
 
               {position.latitude !== 0 && (
                 <Marker 
