@@ -36,8 +36,8 @@ REACT_APP_MAPBOX_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 > Running API. 
-The back-end project is [here](https://github.com/biagavirete/happy_backend). Follow the instructions of that repository's README.
 
+The back-end project is [here](https://github.com/biagavirete/happy_backend). Follow the instructions of that repository's README.
 
 > Running React
 
